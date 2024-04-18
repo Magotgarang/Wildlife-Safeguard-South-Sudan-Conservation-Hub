@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title> Wildlife Safeguard South Sudan Conservation Hub website designed with html css and javascript</title>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"
+          ><img src="images/conseravtionist 1.jpeg" alt="logo" class="img"
+        /></a>
+        <div class="nav-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="text-box">
+        <h1>South Sudan is the the home for beautiful wild animals and birds</h1>
+        <p>
+          Welcome to Wildlife Safeguard South Sudan Conservation Hub website to explore the beautiful wild animals and birds of South Sudan and book your time
+        </p>
+
+        <button class="hero-btn">Visit Us To Know more</button>
+      </div>
+    </section>
+
+    <!-- services section -->
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="service-cards">
+        <div class="service-card">
+          <img src="images/south sudan-giraffe-1.jpg" alt="" />
+<<<<<<< HEAD
+          <h4>The tallest animal </h4>
+=======
+          <h4>graffee </h4>
+
+          <p>
+            
+          Step into the captivating world 
+          of Graffee in South Sudan. 
+          Our website invites you to explore 
+          thrilling hiking adventures amidst 
+          stunning landscapes. Discover nature's beauty 
+          and challenge yourself with exciting treks. 
+          Welcome to your next great adventure.
+          </p>
+          <p><span class="subtitle">Pricing</span>: $1000</p>
+          <p><span class="subtitle">Availability</span>: Available</p>
+          <p><span><button>Book</button></span></p>
+        </div>
+        <div class="service-card">
+          <img src="images/mONKEY.jpg" alt="" />
+<<<<<<< HEAD
+          <h4>protect this beautiful animal</h4>
+=======
+          <h4>Monkey</h4>
+          <p>
+            Discover Monkey Beach: a wild paradise 
+            nestled between Roca Belo Monte and 
+            stunning azure waters. Watch playful 
+            monkeys dance along golden sands, 
+            surrounded by lush jungle. Welcome 
+            to a world of natural wonder and enchantment.
+
+          </p>
+          <p><span class="subtitle">Pricing</span>: $200</p>
+          <p><span class="subtitle">Availability</span>: Available</p>
+          <p><span><button>Book</button></span></p>
+        </div>
+        <div class="service-card">
+          <img src="images/beautiful south sudan bird.jpeg" alt="" />
+<<<<<<< HEAD
+          <h4></h4>
+=======
+          <h4>protect this beautiful bird</h4>
+          <p>
+            Discover Monkey Beach: a wild paradise 
+            nestled between Roca Belo Monte and 
+            stunning azure waters. Watch playful 
+            monkeys dance along golden sands, 
+            surrounded by lush jungle. Welcome 
+            to a world of natural wonder and enchantment.
+          </p>
+          <p><span class="subtitle">Pricing</span>: $2500</p>
+          <p><span class="subtitle">Availability</span>: Available</p>
+          <p><span><button>Book</button></span></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      
+      <div class="service-cards">
+        <div class="service-card">
+          <img src="images/Cheatah.jpeg" alt="" />
+          <h4>Amazing cheatah</h4>
+          <p>
+            The cheetah: epitome of speed and elegance, 
+            with its sleek form and distinctive spots. 
+            Let's protect this iconic species and its habitat.
+          </p>
+          <p><span class="subtitle">Pricing</span>: $1000</p>
+          <p><span class="subtitle">Availability</span>: Available</p>
+          <p><span><button>Book</button></span></p>
+        </div>
+        <div class="service-card">
+          <img src="images/Elephant.jpeg" alt="" />
+          <h4>Amazing elephant</h4>
+          <p>
+          The elephant: a gentle giant, symbol 
+          of wisdom and strength. Let's ensure 
+          their future by safeguarding their habitats 
+          and ending poaching.
+          </p>
+          <p><span class="subtitle">Pricing</span>: $200</p>
+          <p><span class="subtitle">Availability</span>: Available</p>
+          <p><span><button>Book</button></span></p>
+        </div>
+        <div class="service-card">
+          <img src="images/cow.jpeg" alt="" />
+          <h4>south suadan cow </h4>
+          <p>
+          The cow: a symbol of gentle grace and 
+          sustenance. Let's honor and protect these 
+          cherished creatures by promoting their 
+          welfare and ensuring their well-being.
+          </p>
+          <p><span class="subtitle">Pricing</span>: $2500</p>
+          <p><span class="subtitle">Availability</span>: Available</p>
+          <p><span><button>Book</button></span></p>
+        </div>
+      </div>
+    </section>
+
+    <!--reporting form for cases of animals-->
+    <div class="container">
+      <h2>Report Animal Abuse</h2>
+      <form action="submit_report.php" method="post">
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="name" required>
+  
+          <label for="email">Your Email:</label>
+          <input type="email" id="email" name="email" required>
+  
+          <label for="location">Location of Incident:</label>
+          <input type="text" id="location" name="location" required>
+  
+          <label for="description">Description of Incident:</label>
+          <textarea id="description" name="description" required></textarea>
+  
+          <label for="animal_type">Type of Animal Involved:</label>
+          <select id="animal_type" name="animal_type" required>
+              <option value="">Select Animal Type</option>
+              <option value="Monkey">Monkey</option>
+              <option value="Elephant">Elephant</option>
+              <option value="Bird">Bird</option>
+              <option value="Other">Other</option>
+          </select>
+  
+          <input type="submit" value="Submit Report">
+      </form>
+  </div> 
+  
+  <!-- about section -->
+    <section id="about">
+      <h2>About Us</h2>
+      <div class="member-grid">
+        <div class="member-card">
+          <div class="member-info">
+            <img
+              src="images/conseravtionist 1.jpeg"
+              alt="profile-picture"
+              class="profile-picture"
+            />
+            <h3>Team 1</h3>
+            <p class="expertise">
+              <span class="subtitle">Technical Expertise</span>: Wildlife Research
+            </p>
+            <p class="member-description">
+              Specialists in studying wildlife behavior, 
+              habitat needs, and conservation strategies 
+              to protect species and biodiversity.
+            </p>
+          </div>
+        </div>
+        <div class="member-card">
+          <div class="member-info">
+            <img
+              src="images/conservationist 2.jpeg"
+              alt="profile-picture"
+              class="profile-picture"
+            />
+            <h3>Team 2</h3>
+            <p class="expertise">
+              <span class="subtitle">Technical Expertise</span>: Habitat Restoration
+            </p>
+            <p class="member-description">
+              Dedicated to restoring damaged ecosystems, 
+              replanting native species, and ensuring 
+              habitats where wildlife can thrive.
+            </p>
+          </div>
+        </div>
+        <div class="member-card">
+          <div class="member-info">
+            <img
+              src="images/conservationst 3.jpeg"
+              alt="profile-picture"
+              class="profile-picture"
+            />
+            <h3>Team 3</h3>
+              <p class="expertise"></p>
+              <span class="subtitle">Technical Expertise</span>: Community Outreach
+            </p>
+            <p class="member-description">
+              Engages with the public through 
+              educational programs and events 
+              to raise awareness and support for 
+              wildlife conservation.
+            </p>
+          </div>
+        </div>
+        <div class="member-card">
+          <div class="member-info">
+            <img
+              src="images/consevationist 4.jpeg"
+              alt="profile-picture"
+              class="profile-picture"
+            />
+            <h3>Team 4</h3>
+            <p class="expertise">
+              <span class="subtitle">Technical Expertise</span>: Wildlife Rescue
+            </p>
+            <p class="member-description">
+              Provides care and rehabilitation 
+              for injured or displaced wildlife, 
+              aiming for their recovery and return 
+              to the wild.
+            </p>
+          </div>
+        </div>
+        <div class="member-card">
+          <div class="member-info">
+            <img
+              src="images/Team 1.jpg"
+              alt="profile-picture"
+              class="profile-picture"
+            />
+            <h3>Team 5</h3>
+            <p class="expertise">
+              <span class="subtitle">Technical Expertise</span>: Policy and Advocacy
+            </p>
+            <p class="member-description">
+              Advocates for laws and policies 
+              that protect wildlife, leveraging 
+              research and public support to drive 
+              conservation efforts.
+            </p>
+          </div>
+        </div>
+        <div class="member-card">
+          <div class="member-info">
+            <img
+              src="images/south sudan flag.png"
+              alt="profile-picture"
+              class="profile-picture"
+            />
+            <h3>Team 6</h3>
+            <p class="expertise">
+              <span class="subtitle">Technical expertise</span>: Sustainable Development
+            </p>
+            <p class="member-description">
+              Focuses on conservation-friendly 
+              development, building partnerships 
+              to balance economic growth with the 
+              well-being of wildlife.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+<!--form service section-->
+<section id="booking-form">
+  <h2>Book Your Adventure</h2>
+  <div class="query-form">
+    <form action="your_server_script_or_url" method="post">
+      <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" name="fullName" required />
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+      <div class="form-group">
+        <label for="phoneNumber">Phone Number</label>
+        <input type="tel" id="phoneNumber" name="phoneNumber" required />
+      </div>
+      <div class="form-group">
+        <label for="selectedService">Selected Service</label>
+        <input type="text" id="selectedService" name="selectedService" required/>
+      </div>
+      <button type="submit" class="submit-btn">Book Now</button>
+    </form>
+  </div>
+</section>
+
+    <!-- contact section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <div class="query-form">
+        <form class="query-form" action="#" method="post">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="query">Query</label>
+            <textarea id="query" name="query" required></textarea>
+          </div>
+          <button type="submit" class="submit-btn">Submit</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
